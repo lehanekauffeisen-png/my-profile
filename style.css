@@ -15,52 +15,45 @@ body {
 .card-white {
   background-color: #f9f9f9;
   padding: 40px 30px;
-  margin: 16px 0;
+  margin: 20px 0;
   border-radius: 25px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
 }
 
 h1 {
-  color: #333333;
   font-size: 44px;
-  margin-bottom: 20px;
+  color: #333;
+  margin-bottom: 15px;
 }
 
 h2 {
-  color: #333333;
-  font-size: 28px;
+  font-size: 26px;
+  color: #333;
   margin-bottom: 15px;
 }
 
 .intro {
-  font-size: 22px;
-  color: #555555;
-  margin-bottom: 10px;
+  font-size: 20px;
+  color: #555;
 }
 
 .description {
-  font-size: 18px;
-  color: #555555;
+  font-size: 16px;
   margin-bottom: 25px;
 }
 
 p {
-  font-size: 18px;
-  line-height: 1.8;
-}
-
-a {
-  text-decoration: none;
+  line-height: 1.7;
 }
 
 .btn-blue {
   background-color: #6c70e8;
   color: white;
-  padding: 14px 24px;
+  padding: 12px 22px;
   border-radius: 10px;
+  text-decoration: none;
   display: inline-block;
   margin-bottom: 25px;
-  font-size: 16px;
 }
 
 .btn-blue:hover {
@@ -68,8 +61,8 @@ a {
 }
 
 .img-circle {
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
   object-fit: cover;
   border-radius: 50%;
   display: block;
@@ -83,12 +76,13 @@ a {
 
 .list-inline > li {
   display: inline;
-  padding: 0 20px;
+  padding: 0 15px;
 }
 
 .list-inline a {
-  color: #444444;
-  font-size: 18px;
+  color: #444;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 .list-inline a:hover {
@@ -99,18 +93,40 @@ a {
   margin-right: 8px;
 }
 
-#introduction .description {
-  margin-bottom: 30px;
+/* RESPONSIVE (PARTIE 2) */
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
 }
 
-#introduction {
-  padding: 60px 40px;
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
 }
 
-.card-white {
-  transition: transform 0.2s ease;
-}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
 
-.card-white:hover {
-  transform: translateY(-5px);
+  h1 {
+    font-size: 34px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .img-circle {
+    width: 120px;
+    height: 120px;
+  }
+
+  .list-inline > li {
+    display: block;
+    padding: 10px 0;
+  }
 }
