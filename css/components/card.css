@@ -35,7 +35,7 @@
 .card-img-paris {
   background-image:
     linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
-    url('../../images/paris.jpg');
+    url('/my-profile/images/paris.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -43,7 +43,7 @@
 .card-img-ny {
   background-image:
     linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
-    url('../../images/newyork.jpg');
+    url('/my-profile/images/newyork.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -51,7 +51,7 @@
 .card-img-london {
   background-image:
     linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
-    url('../../images/londres.jpg');
+    url('/my-profile/images/londres.jpg');
   background-size: cover;
   background-position: center;
 }
