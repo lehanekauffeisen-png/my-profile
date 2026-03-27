@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Only ONE link to style.css as required by the instructions -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wander — Discover the World</title>
+  </head>
+
+  <body>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Wander<span>.</span></a>
+      <ul class="navbar-links">
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#experiences">Experiences</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- ==================== BANNER ==================== -->
+    <!-- Re-uses: .container, .btn-primary, .btn-outline -->
+    <div class="banner">
+      <div class="container">
+        <div class="banner-badge">Curated travel experiences</div>
+        <h1>The world is waiting<br>to be <em>explored</em></h1>
+        <h2>Handpicked destinations, seamless journeys,<br>and memories that last a lifetime.</h2>
+        <div class="banner-buttons">
+          <a href="#destinations" class="btn-primary">Explore destinations</a>
+          <a href="#about" class="btn-outline">How it works</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== STATS BAR ==================== -->
+    <div class="stats-bar">
+      <div class="container">
+        <div class="stats-inner">
+          <div class="stat">
+            <span class="stat-num">12k+</span>
+            <span class="stat-label">Happy travelers</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">3</span>
+            <span class="stat-label">Iconic cities</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">98%</span>
+            <span class="stat-label">Satisfaction rate</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">24/7</span>
+            <span class="stat-label">Customer support</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== DESTINATIONS SECTION ==================== -->
+    <section class="section" id="destinations">
+      <div class="container">
+
+        <p class="section-tag">Top destinations</p>
+        <h2 class="section-title">Where will you go next?</h2>
+        <p class="section-sub">
+          Three legendary cities, each with its own soul.
+          Pick yours and let us handle the rest.
+        </p>
+
+        <!-- Cards grid — re-uses .card component -->
+        <div class="cards">
+
+          <!-- Card 1 : Paris -->
+          <div class="card">
+            <div class="card-img card-img-paris">
+              <span class="card-flag">France</span>
+              <div class="card-price">from €599 <span>/ person</span></div>
+            </div>
+            <div class="card-body">
+              <h3>Paris</h3>
+              <p>
+                The city of light and love. Stroll along the Seine,
+                discover world-class art, and indulge in French cuisine
+                at its finest.
+              </p>
+              <div class="card-meta">
+                <span class="card-meta-item">
+                  <span class="dot"></span> 5 nights
+                </span>
+                <span class="card-meta-item">
+                  <span class="dot"></span> Flight included
+                </span>
+                <span class="card-meta-item">
+                  <span class="dot"></span> 4★ hotel
+                </span>
+              </div>
+              <a href="#" class="card-cta">Discover Paris →</a>
+            </div>
+          </div>
+
+          <!-- Card 2 : New York -->
+          <div class="card">
+            <div class="card-img card-img-ny">
+              <span class="card-flag">United States</span>
+              <div class="card-price">from €799 <span>/ person</span></div>
+            </div>
+            <div class="card-body">
+              <h3>New York</h3>
+              <p>
+                The city that never sleeps. From Times Square to Central Park,
+                experience the energy and diversity of the Big Apple.
+              </p>
+              <div class="card-meta">
+                <span class="card-meta-item">
+                  <span class="dot dot-blue"></span> 7 nights
+                </span>
+                <span class="card-meta-item">
+                  <span class="dot dot-blue"></span> Flight included
+                </span>
+                <span class="card-meta-item">
+                  <span class="dot dot-blue"></span> 4★ hotel
+                </span>
+              </div>
+              <a href="#" class="card-cta card-cta-blue">Discover New York →</a>
+            </div>
+          </div>
+
+          <!-- Card 3 : London -->
+          <div class="card">
+            <div class="card-img card-img-london">
+              <span class="card-flag">United Kingdom</span>
+              <div class="card-price">from €649 <span>/ person</span></div>
+            </div>
+            <div class="card-body">
+              <h3>London</h3>
+              <p>
+                A city of history and modernity. Explore royal palaces,
+                iconic red buses, and a vibrant arts and food scene.
+              </p>
+              <div class="card-meta">
+                <span class="card-meta-item">
+                  <span class="dot dot-green"></span> 6 nights
+                </span>
+                <span class="card-meta-item">
+                  <span class="dot dot-green"></span> Flight included
+                </span>
+                <span class="card-meta-item">
+                  <span class="dot dot-green"></span> 4★ hotel
+                </span>
+              </div>
+              <a href="#" class="card-cta card-cta-green">Discover London →</a>
+            </div>
+          </div>
+
+        </div>
+        <!-- end .cards -->
+
+      </div>
+      <!-- end .container -->
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+      &copy; 2025 <strong>Wander.</strong> — All rights reserved. Made with passion for travel.
+    </footer>
+
+  </body>
+</html>
