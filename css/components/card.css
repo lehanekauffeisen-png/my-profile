@@ -33,15 +33,27 @@
 }
 
 .card-img-paris {
-  background: linear-gradient(160deg, #2C2C2A 0%, #D85A30 100%);
+  background-image:
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url('images/paris.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .card-img-ny {
-  background: linear-gradient(160deg, #042C53 0%, #378ADD 100%);
+  background-image:
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url('images/newyork.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .card-img-london {
-  background: linear-gradient(160deg, #04342C 0%, #1D9E75 100%);
+  background-image:
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url('images/london.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .card-flag {
