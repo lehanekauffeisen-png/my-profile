@@ -1,0 +1,84 @@
+/* =============================================
+   Importing Google Fonts
+   ============================================= */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap");
+
+/* =============================================
+   Importing component files
+   ============================================= */
+@import url("components/container.css");
+@import url("components/navbar.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/stats.css");
+
+/* =============================================
+   General style rules for fonts and colors
+   ============================================= */
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  margin: 0px;
+  background-color: #ffffff;
+  color: #2C2C2A;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* =============================================
+   Section layout
+   ============================================= */
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.section-tag {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #D85A30;
+  margin-bottom: 8px;
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #2C2C2A;
+  margin-bottom: 10px;
+}
+
+.section-sub {
+  font-size: 16px;
+  color: #888780;
+  margin-bottom: 40px;
+  max-width: 520px;
+  line-height: 1.7;
+}
+
+/* =============================================
+   Footer
+   ============================================= */
+footer {
+  padding: 30px 40px;
+  text-align: center;
+  font-size: 13px;
+  color: #888780;
+  border-top: 1px solid #d3d1c7;
+  background-color: #1a1a18;
+}
+
+footer strong {
+  color: #D85A30;
+}
