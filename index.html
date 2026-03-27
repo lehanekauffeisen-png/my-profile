@@ -1,148 +1,66 @@
+<img src="images/profile.png">
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <!-- Only ONE link to style.css as required by the instructions -->
-    <link rel="stylesheet" href="css/style.css">
+    <title>My profile</title>
+    <meta name="description" content="My profile page">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wander — Discover the World</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   </head>
 
   <body>
 
-    <!-- ==================== NAVBAR ==================== -->
-    <nav class="navbar">
-      <a href="#" class="navbar-logo">Wander<span>.</span></a>
-      <ul class="navbar-links">
-        <li><a href="#destinations">Destinations</a></li>
-        <li><a href="#experiences">Experiences</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
 
-    <!-- ==================== BANNER ==================== -->
-    <!-- Re-uses: .container, .btn-primary, .btn-outline -->
-    <div class="banner">
-      <div class="container">
-        <h1>The world is waiting<br>to be <em>explored</em></h1>
-        <h2>Handpicked destinations, seamless journeys,<br>and memories that last a lifetime.</h2>
-        <div class="banner-buttons">
-          <a href="#destinations" class="btn-primary">Explore destinations</a>
-        </div>
-      </div>
-    </div>
+      <div class="card-white" id="introduction">
+        <h1>Hello, I'm Lehane Kauffeisen</h1>
 
-    <!-- ==================== STATS BAR ==================== -->
-    <div class="stats-bar">
-      <div class="container">
-        <div class="stats-inner">
-          <div class="stat">
-            <span class="stat-num">12k+</span>
-            <span class="stat-label">Happy travelers</span>
-          </div>
-          <div class="stat">
-            <span class="stat-num">3</span>
-            <span class="stat-label">Iconic cities</span>
-          </div>
-          <div class="stat">
-            <span class="stat-num">98%</span>
-            <span class="stat-label">Satisfaction rate</span>
-          </div>
-          <div class="stat">
-            <span class="stat-num">24/7</span>
-            <span class="stat-label">Customer support</span>
-          </div>
-        </div>
-      </div>
-    </div>
+        <p class="intro">Welcome to my profile page!</p>
 
-    <!-- ==================== DESTINATIONS SECTION ==================== -->
-    <section class="section" id="destinations">
-      <div class="container">
-
-        <h2 class="section-title">Where will you go next?</h2>
-        <p class="section-sub">
-          Three legendary cities, each with its own soul.
-          Pick yours and let us handle the rest.
+        <p class="description">
+          I love fashion, traveling and creative projects.
         </p>
 
-        <!-- Cards grid — re-uses .card component -->
-        <div class="cards">
+        <a href="https://www.linkedin.com" target="_blank" class="btn-blue">
+          Discover my profile
+        </a>
 
-          <!-- Card 1 : Paris -->
-          <div class="card">
-            <div class="card-img card-img-paris">
-            </div>
-            <div class="card-body">
-              <h3>Paris</h3>
-              <p>
-                The city of light and love. Stroll along the Seine,
-                discover world-class art, and indulge in French cuisine
-                at its finest.
-              </p>
-              <div class="card-meta">
-                <span class="card-meta-item">
-                </span>
-                <span class="card-meta-item">
-                </span>
-                <span class="card-meta-item">
-                </span>
-              </div>
-              <a href="#" class="card-cta">Discover Paris →</a>
-            </div>
-          </div>
+        <"images/profile.png" 
 
-          <!-- Card 2 : New York -->
-          <div class="card">
-            <div class="card-img card-img-ny">
-            </div>
-            <div class="card-body">
-              <h3>New York</h3>
-              <p>
-                The city that never sleeps. From Times Square to Central Park,
-                experience the energy and diversity of the Big Apple.
-              </p>
-              <div class="card-meta">
-                <span class="card-meta-item">
-                </span>
-                <span class="card-meta-item">
-                </span>
-                <span class="card-meta-item">
-                </span>
-              </div>
-              <a href="#" class="card-cta card-cta-blue">Discover New York →</a>
-            </div>
-          </div>
-
-          <!-- Card 3 : London -->
-          <div class="card">
-            <div class="card-img card-img-london">
-            </div>
-            <div class="card-body">
-              <h3>London</h3>
-              <p>
-                A city of history and modernity. Explore royal palaces,
-                iconic red buses, and a vibrant arts and food scene.
-              </p>
-              <div class="card-meta">
-                <span class="card-meta-item">
-                </span>
-                <span class="card-meta-item">
-                </span>
-                <span class="card-meta-item">
-                </span>
-              </div>
-              <a href="#" class="card-cta card-cta-green">Discover London →</a>
-            </div>
-          </div>
-
-        </div>
-        <!-- end .cards -->
-
+      <div class="card-white">
+        <h2>Fashion</h2>
+        <p>
+          I love fashion because it allows me to express my personality
+          and creativity through different styles and ideas.
+        </p>
       </div>
-      <!-- end .container -->
-    </section>
 
-   
+      <div class="card-white">
+        <h2>Travel</h2>
+        <p>
+          Traveling allows me to discover new cultures, meet new people
+          and open my mind to the world.
+        </p>
+      </div>
+
+      <div class="card-white">
+        <h2>Creative projects</h2>
+        <p>
+          I enjoy working on creative projects like design, content creation
+          and anything that lets me express ideas visually.
+        </p>
+      </div>
+
+     <div class="card-white">
+  <h2>Follow me</h2>
+  <ul class="list-inline">
+    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+    <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+  </ul>
+</div>
+
+</div>
+</body>
+</html>
