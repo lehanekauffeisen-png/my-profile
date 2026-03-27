@@ -1,0 +1,132 @@
+body {
+  background: linear-gradient(to bottom, #5f7d67 35%, #f7f3ed 35%);
+  font-family: "Times New Roman", serif;
+  color: #4a4a4a;
+  text-align: center;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-white {
+  background-color: #f9f9f9;
+  padding: 40px 30px;
+  margin: 20px 0;
+  border-radius: 25px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  font-size: 44px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.intro {
+  font-size: 20px;
+  color: #555;
+}
+
+.description {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+p {
+  line-height: 1.7;
+}
+
+.btn-blue {
+  background-color: #6c70e8;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.btn-blue:hover {
+  background-color: #575bd6;
+}
+
+.img-circle {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto 0 auto;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 0 15px;
+}
+
+.list-inline a {
+  color: #444;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.list-inline a:hover {
+  color: #6c70e8;
+}
+
+.list-inline i {
+  margin-right: 8px;
+}
+
+/* RESPONSIVE (PARTIE 2) */
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .img-circle {
+    width: 120px;
+    height: 120px;
+  }
+
+  .list-inline > li {
+    display: block;
+    padding: 10px 0;
+  }
+}
