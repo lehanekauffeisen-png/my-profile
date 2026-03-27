@@ -4,7 +4,7 @@
     /* Transparent gradient above the image */
     linear-gradient(135deg, rgba(26, 26, 24, 0.92) 0%, rgba(58, 36, 24, 0.80) 60%, rgba(29, 158, 117, 0.70) 100%),
     /* Then image below */
-    url('../images/background.jpg');
+   url('/my-profile/images/background.jpg');
 
   /* 2. Make the background image cover the banner div */
   background-size: cover;
